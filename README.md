@@ -2,7 +2,8 @@
 对SQLite的swift3.0版本的封装
 
 
-// 创建db
+
+```// 创建db
 let manager: ZKJDBManager = ZKJDBManager(withDBName: "testDB")
 // 单个插入
 manager.insert(object: "this is first data", intoTable: "testTable")
@@ -50,3 +51,6 @@ for item5 in results5! {
 let dbItem: ZKJDBItem = item5 as! ZKJDBItem
 dbItem.itemDescription()
 }
+```
+
+

@@ -1,0 +1,6 @@
+framework module Pods_ZKJDBManagerTool {
+  umbrella header "Pods-ZKJDBManagerTool-umbrella.h"
+
+  export *
+  module * { export * }
+}
